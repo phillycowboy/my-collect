@@ -20,7 +20,7 @@ languages = []
 i = 0 
 while
     i < array.length
-    languages << array[i]
+    languages << yield(array[i])
     i += 1
     end
     languages
